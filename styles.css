@@ -1,0 +1,134 @@
+
+/* Global */
+
+body {
+    background-color:#F4DFC8;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    padding: 1.5rem;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+/* Navigation Bar */
+
+.nav-link {
+    padding: 0 10rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.container-fluid {
+    padding: 1% 40%;
+    background-color: #FAF6F0;
+  }
+
+/* About Me */
+
+#prof-pic {
+    width: 250px;
+    height: 300px;
+    border-radius: 12%;
+    padding: 1.5rem;
+    text-align: left;
+}
+
+#about-me {
+    background-color: #F4EAE0;
+    
+}
+
+.about-me-text {
+    width: 70%;
+    right: 30%;
+    text-align: left;
+    padding: 0.75rem;
+}
+
+
+/* Working Experience */
+
+#work-history {
+    background-color: #FAF6F0;
+}
+
+table {
+    text-align: center;
+    background-color: aqua;
+}
+
+.table tbody td:nth-child(2) ul {
+    text-align: left;
+  }
+
+.td-table-work {
+    background-color: red;
+}
+
+/* Education */
+
+#education {
+    background-color: #F4EAE0;
+}
+
+/* Personal Project */
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    flex-grow: 1;
+  }
+
+/* Achievements */
+
+#achievements {
+    background-color: #FAF6F0;
+    padding: 3rem 0;
+    margin-top: 2rem;
+}
+
+/* Certificates */
+
+#certificates {
+    padding: 3rem 0;
+}
+
+/* Contact Me */
+
+#contact {
+    background-color: #F4EAE0;
+}
+
+.contact {
+    padding: 1.5rem;
+    font-size: larger;
+}
